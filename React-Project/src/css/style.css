@@ -1,0 +1,89 @@
+/* Globals */
+/* Region dedicated to styling all values for the page */
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 90vh;
+}
+
+/* Nav */
+/* Region dedicated for styling the navigation component */
+
+nav {
+    background-color: #21222A;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 91px;
+    /* width: 550px; */
+    padding: 2px 28px;
+}
+
+.logocontainer {
+    width: 158px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.logocontainer > h3 {
+    padding-left: 7px;
+}
+
+.logocontainer img {
+    width: 30px;
+}
+
+nav h3 {
+    color: #61DAFB;
+}
+
+nav > h4 {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+/* Main */
+/* Region dedicated for styling the main content component of the page */
+
+main {
+    padding: 57px 27px;
+
+    background-color: #282D35;
+    color: #FFFFFF;
+
+    height: 83.1vh;
+
+    background: #282D35 url("../assets/React.js_logo-512.png") no-repeat center right;
+}
+
+main > h1 {
+    font-weight: 700;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+ul {
+    padding-top: 46px;
+    padding-left: 29px;
+
+    max-width: 400px;
+
+    /* list-style: none; */
+}
+
+li {
+    margin: 12px 0px;
+}
+
+li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
